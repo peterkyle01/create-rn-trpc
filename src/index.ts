@@ -256,10 +256,4 @@ function getDevCommand(packageManager: string): string {
   }
 }
 
-// Handle the case where no arguments are provided
-if (process.argv.length === 2) {
-  displayBanner();
-  program.help();
-}
-
 program.parse(process.argv);

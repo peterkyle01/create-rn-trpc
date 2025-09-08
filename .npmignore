@@ -1,0 +1,7 @@
+src/
+tsconfig.json
+dev.sh
+*.log
+.env
+node_modules/
+.git/
